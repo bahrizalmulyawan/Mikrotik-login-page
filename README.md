@@ -114,6 +114,3 @@ Arsip `github-hotspot.zip` menyertakan README lama yang menyebut contoh konfigur
 | Tombol QR Code tidak membuka pemindai | Integrasi QR belum disediakan; atur tautan dan implementasi pemindai yang sesuai terlebih dahulu. |
 | Halaman setelah login/status tidak ditemukan | Pastikan `alogin.html`, `status.html`, dan file Hotspot terkait telah diunggah ke direktori HTML yang sama. |
 
-## Lisensi dan atribusi
-
-Arsip proyek ini tidak menyertakan file lisensi tingkat proyek. Periksa izin dan ketentuan dari pemilik/kontributor asli sebelum menggunakan ulang atau mendistribusikan proyek ini. `md5.js` memiliki catatan hak cipta tersendiri di dalam file tersebut.
