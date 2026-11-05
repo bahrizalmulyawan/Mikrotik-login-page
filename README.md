@@ -101,7 +101,7 @@ Edit teks di sisi kanan tanda `=` sesuai bahasa dan pesan yang ingin ditampilkan
 
 Tombol **QR CODE** saat ini hanya berupa elemen tautan dengan `href` kosong. Proyek ini tidak menyertakan halaman pemindai QR, pustaka kamera, atau kode yang menghubungkan tombol tersebut ke layanan pemindai. Karena itu, tombol tersebut belum dapat dianggap sebagai fitur pemindaian yang siap digunakan.
 
-Arsip `github-hotspot.zip` menyertakan README lama yang menyebut contoh konfigurasi Walled Garden untuk `laksa19.github.io` dan pengaktifan HTTP PAP. Instruksi tersebut merupakan petunjuk integrasi eksternal lama; aturan Walled Garden/HTTP PAP saja tidak mengaktifkan tombol QR pada template ini. Verifikasi layanan pemindai, domain, dan persyaratan autentikasinya sebelum menambahkan aturan pada router.
+Walled Garden untuk `XXX.github.io` dan pengaktifan HTTP PAP. Instruksi tersebut merupakan petunjuk integrasi eksternal lama; aturan Walled Garden/HTTP PAP saja tidak mengaktifkan tombol QR pada template ini. Verifikasi layanan pemindai, domain, dan persyaratan autentikasinya sebelum menambahkan aturan pada router.
 
 ## Pemecahan masalah
 
@@ -114,3 +114,7 @@ Arsip `github-hotspot.zip` menyertakan README lama yang menyebut contoh konfigur
 | Tombol QR Code tidak membuka pemindai | Integrasi QR belum disediakan; atur tautan dan implementasi pemindai yang sesuai terlebih dahulu. |
 | Halaman setelah login/status tidak ditemukan | Pastikan `alogin.html`, `status.html`, dan file Hotspot terkait telah diunggah ke direktori HTML yang sama. |
 
+## LIVE DEMO
+
+LIVE DEMO BISA DIAKSES
+https://bahrizalmulyawan.github.io/demo2/login.html
