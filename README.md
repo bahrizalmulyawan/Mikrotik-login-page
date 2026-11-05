@@ -76,7 +76,6 @@ Tidak diperlukan Node.js, npm, framework, atau proses build. File harus disajika
 
 Edit `login.html` untuk mengganti teks contoh seperti:
 
-- `kemangi 41`
 - `LOREM IPSUM` dan paragraf contoh
 - `PAKET INTERNET`
 - `Rp XXX`, masa aktif, dan informasi paket
@@ -101,6 +100,20 @@ Edit teks di sisi kanan tanda `=` sesuai bahasa dan pesan yang ingin ditampilkan
 
 Tombol **QR CODE** saat ini hanya berupa elemen tautan dengan `href` kosong. Proyek ini tidak menyertakan halaman pemindai QR, pustaka kamera, atau kode yang menghubungkan tombol tersebut ke layanan pemindai. Karena itu, tombol tersebut belum dapat dianggap sebagai fitur pemindaian yang siap digunakan.
 
+
+myqr.html
+
+let html5QrCode=new Html5Qrcode("reader"); let currentCameraId=null;
+
+/* DOMAIN ALLOWLIST / / change this domain */
+
+const ALLOWED_DOMAINS=[ "namawifi.net",
+
+];
+
+ganti ini sesusai domain yang ada
+
+https://bahrizalmulyawan.github.io/qrcode/livedemo
 Walled Garden untuk `XXX.github.io` dan pengaktifan HTTP PAP. Instruksi tersebut merupakan petunjuk integrasi eksternal lama; aturan Walled Garden/HTTP PAP saja tidak mengaktifkan tombol QR pada template ini. Verifikasi layanan pemindai, domain, dan persyaratan autentikasinya sebelum menambahkan aturan pada router.
 
 ## Pemecahan masalah
